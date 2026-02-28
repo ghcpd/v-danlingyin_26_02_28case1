@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "total_missing_docs": 12,
+    "high": 3,
+    "medium": 6,
+    "low": 3
+  },
+  "details": [
+    {
+      "id": 1,
+      "feature": "addState",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "Method for registering a new state was undocumented."
+    },
+    {
+      "id": 2,
+      "feature": "start",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "Initializes the machine with a given state; not described."
+    },
+    {
+      "id": 3,
+      "feature": "transition",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "Performs state transitions; core behavior lacked documentation."
+    },
+    {
+      "id": 4,
+      "feature": "getCurrent",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "Returns current state; missing from docs."
+    },
+    {
+      "id": 5,
+      "feature": "getHistory",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "Provides transition history; was not mentioned."
+    },
+    {
+      "id": 6,
+      "feature": "onTransition",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "Hook registration for transitions lacked explanation."
+    },
+    {
+      "id": 7,
+      "feature": "canTransition",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "Pre‑flight check method; not documented."
+    },
+    {
+      "id": 8,
+      "feature": "reset",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "Clears state and history; absent from docs."
+    },
+    {
+      "id": 9,
+      "feature": "getStates",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "Returns list of registered states; undocumented."
+    },
+    {
+      "id": 10,
+      "feature": "StateDefinition",
+      "source_file": "stateMachine.ts",
+      "severity": "Low",
+      "description": "Interface describing a state; not listed in guide."
+    },
+    {
+      "id": 11,
+      "feature": "TransitionEvent",
+      "source_file": "stateMachine.ts",
+      "severity": "Low",
+      "description": "Event object emitted on transitions; missing docs."
+    },
+    {
+      "id": 12,
+      "feature": "TransitionHook",
+      "source_file": "stateMachine.ts",
+      "severity": "Low",
+      "description": "Type alias for transition hooks; absent from documentation."
+    }
+  ]
+}
