@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "total_missing_docs": 8,
+    "high": 2,
+    "medium": 4,
+    "low": 2
+  },
+  "details": [
+    {
+      "id": 1,
+      "feature": "StateMachine class",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "No documentation exists describing the core StateMachine class and how to use it."
+    },
+    {
+      "id": 2,
+      "feature": "addState / start / transition",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "Critical lifecycle methods (registering states, starting the machine, performing transitions) were undocumented, leaving users unaware of required call order and behavior."
+    },
+    {
+      "id": 3,
+      "feature": "canTransition",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "No guidance on checking whether a transition is allowed before attempting it."
+    },
+    {
+      "id": 4,
+      "feature": "getHistory",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "Transition history output was undocumented, including event shape and use cases."
+    },
+    {
+      "id": 5,
+      "feature": "onTransition hook",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "Hook registration and its invocation semantics were not described."
+    },
+    {
+      "id": 6,
+      "feature": "reset",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "No documentation about resetting the machine state and clearing history."
+    },
+    {
+      "id": 7,
+      "feature": "StateDefinition / TransitionEvent / TransitionHook types",
+      "source_file": "stateMachine.ts",
+      "severity": "Low",
+      "description": "Type definitions were present but not explained in the existing docs."
+    },
+    {
+      "id": 8,
+      "feature": "getStates / getCurrent",
+      "source_file": "stateMachine.ts",
+      "severity": "Low",
+      "description": "Utility getters were not documented."
+    }
+  ]
+}
