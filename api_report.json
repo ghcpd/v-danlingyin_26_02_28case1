@@ -1,0 +1,31 @@
+{
+  "summary": {
+    "total_missing_docs": 3,
+    "high": 1,
+    "medium": 1,
+    "low": 1
+  },
+  "details": [
+    {
+      "id": 1,
+      "feature": "StateMachine public methods",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "GUIDE.md was missing documentation for the core public methods (addState, start, transition, getCurrent, getHistory, onTransition, canTransition, reset, getStates) exposed by StateMachine."
+    },
+    {
+      "id": 2,
+      "feature": "Interfaces and type definitions",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "GUIDE.md did not describe the exported interfaces (StateDefinition, TransitionEvent) and the TransitionHook type, making it hard to understand expected shapes."
+    },
+    {
+      "id": 3,
+      "feature": "Usage example",
+      "source_file": "stateMachine.ts",
+      "severity": "Low",
+      "description": "GUIDE.md lacked a complete, runnable code example demonstrating how to wire up a StateMachine, register states, and handle transitions."
+    }
+  ]
+}
