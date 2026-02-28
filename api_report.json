@@ -1,0 +1,101 @@
+{
+  "summary": {
+    "total_missing_docs": 13,
+    "high": 9,
+    "medium": 3,
+    "low": 1
+  },
+  "details": [
+    {
+      "id": 1,
+      "feature": "StateDefinition interface",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "The StateDefinition interface was completely undocumented. It defines state name and allowed transitions."
+    },
+    {
+      "id": 2,
+      "feature": "StateDefinition.name field",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "The 'name' field of StateDefinition was not documented. It represents the state's identifier."
+    },
+    {
+      "id": 3,
+      "feature": "StateDefinition.allowedTransitions field",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "The 'allowedTransitions' field was not documented. It defines which states can be reached from this state."
+    },
+    {
+      "id": 4,
+      "feature": "TransitionEvent interface",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "The TransitionEvent interface was completely undocumented. It represents a state transition with metadata."
+    },
+    {
+      "id": 5,
+      "feature": "TransitionHook type",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "The TransitionHook type was not documented. It defines the callback signature for transition events."
+    },
+    {
+      "id": 6,
+      "feature": "addState() method",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "While the method had a JSDoc comment, the GUIDE.md had no documentation or examples for this critical API."
+    },
+    {
+      "id": 7,
+      "feature": "start() method",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "While the method had a JSDoc comment, the GUIDE.md had no documentation or examples for initializing the machine."
+    },
+    {
+      "id": 8,
+      "feature": "transition() method",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "While the method had a JSDoc comment, the GUIDE.md lacked comprehensive documentation and usage examples."
+    },
+    {
+      "id": 9,
+      "feature": "getCurrent() method",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "The GUIDE.md had no documentation on how to retrieve the current state."
+    },
+    {
+      "id": 10,
+      "feature": "getHistory() method",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "The GUIDE.md had no documentation on accessing the transition history."
+    },
+    {
+      "id": 11,
+      "feature": "onTransition() method",
+      "source_file": "stateMachine.ts",
+      "severity": "High",
+      "description": "The GUIDE.md had no documentation on registering callbacks for state transitions."
+    },
+    {
+      "id": 12,
+      "feature": "canTransition() method",
+      "source_file": "stateMachine.ts",
+      "severity": "Medium",
+      "description": "The GUIDE.md had no documentation on checking if a transition is allowed before attempting it."
+    },
+    {
+      "id": 13,
+      "feature": "reset() and getStates() methods",
+      "source_file": "stateMachine.ts",
+      "severity": "Low",
+      "description": "The GUIDE.md lacked documentation on resetting the machine and enumerating registered states."
+    }
+  ]
+}
